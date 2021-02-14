@@ -1,0 +1,92 @@
+.login-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px;
+}
+
+.login-box_word {
+  width: 440px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box_word_title {
+  text-align: center;
+  font-size: 30px;
+  margin: 5px;
+}
+
+.login-box_word_explaind {
+  width: 300px;
+  margin: 5px;
+  text-align: center;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.login-box_info {
+  width: 440px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box_info_input {
+  height: 140;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.login-box_info_input_id {
+  width: 400px;
+  height: 35px;
+  margin: 5px;
+  border-style: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  outline-style: none;
+}
+
+.login-box_info_input_pw {
+  width: 400px;
+  height: 35px;
+  margin: 5px;
+  border-style: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  outline-style: none;
+}
+
+.login-box_info_submit {
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-box_info_submit_login {
+  width: 400px;
+  height: 35px;
+  margin: 5px;
+  border-style: none;
+  outline-style: none;
+  cursor: pointer;
+}
+.login-box_info_submit_signup {
+  width: 400px;
+  height: 35px;
+  margin: 5px;
+  border-style: none;
+  outline-style: none;
+  cursor: pointer;
+}
+.login-box_find {
+  text-decoration: none;
+  color: #000000;
+}
