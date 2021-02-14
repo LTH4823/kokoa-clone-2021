@@ -2,14 +2,13 @@
 @import "../css/componenets/loginbox.css";
 @import "../css/componenets/navigationbar.css";
 @import "../css/componenets/settings.css";
-
+@import "../css/componenets/more.css";
 /* @media screen and (max-width: 600px) and(min-width:1200px) {
   body {
     background-color: red;
     transition: all 1s ease;
   }
 } */
-
 .main {
   width: 600px;
   height: 100vh;

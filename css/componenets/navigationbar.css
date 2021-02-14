@@ -13,6 +13,16 @@ a {
   font-weight: bolder;
   background-color: rgba(0, 0, 0, 0.2);
 }
+
+.navigationbar-header-icons {
+  width: 160px;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #ffffff;
+}
+
 .navigationbar-header_before {
   margin: 25px;
 }
@@ -22,6 +32,12 @@ a {
 }
 .navigationbar-header_title_settings {
   font-size: 25px;
+  color: #ffffff;
+}
+
+.navigationbar-header-title_more {
+  font-size: 25px;
+  margin: 20px;
   color: #ffffff;
 }
 

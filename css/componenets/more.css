@@ -1,0 +1,109 @@
+.morebox {
+  height: 100vh;
+  background: linear-gradient(to top, rgb(88, 88, 233), rgb(49, 188, 243));
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.morebox-profile {
+  width: 600px;
+  height: 80px;
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.morebox-profile_info {
+  width: 300px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.morebox-profile_info_img {
+  width: 80px;
+  height: 80px;
+  margin: 10px 10px;
+  border-radius: 20px;
+  background-color: blueviolet;
+}
+
+.morebox-profile_info_word {
+  width: 200px;
+  height: 60px;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.morebox-profile_info_word_name {
+  font-size: 25px;
+  font-weight: bold;
+}
+.morebox-profile_info_word_address {
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.1);
+}
+
+.morebox-profile_info_word_address i {
+  margin: 5px;
+  color: #f77a7a;
+}
+
+.morebo-profile_icon {
+  margin: 15px;
+}
+
+.morebox-main {
+  display: grid;
+  grid-template-columns: repeat(4, 130px);
+  grid-template-rows: repeat(2, 100px);
+  justify-content: center;
+  align-content: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.morebox-main_app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.morebox-main_app i {
+  font-size: 35px;
+}
+
+.morebox-main_app p {
+  font-weight: bold;
+}
+
+.morebox-sug {
+  margin: 20px;
+  font-weight: bold;
+}
+
+.morebox-sug_apps {
+  margin: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 130px);
+  grid-template-rows: repeat(2, 100px);
+  justify-content: center;
+  align-content: center;
+}
+
+.morebox-sug_apps_app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
