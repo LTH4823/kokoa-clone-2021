@@ -10,14 +10,13 @@
 .chatbox_chat {
   width: 600px;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .chatbox_chat_info {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -27,4 +26,41 @@
   margin: 10px 10px;
   border-radius: 20px;
   background-color: blueviolet;
+}
+
+.chatbox_chat_info_word {
+  width: 300px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.chatbox_chat_info_word_name {
+}
+
+.chatbox_chat_info_word_address {
+}
+
+.chatbox_chat_check {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.chatbox_chat_check_time {
+}
+
+.chatbox_chat_check_mark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: chocolate;
 }
