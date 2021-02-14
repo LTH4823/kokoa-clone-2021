@@ -1,5 +1,8 @@
 @import "../css/componenets/statusbar.css";
 @import "../css/componenets/loginbox.css";
+@import "../css/componenets/navigationbar.css";
+@import "../css/componenets/settings.css";
+
 /* @media screen and (max-width: 600px) and(min-width:1200px) {
   body {
     background-color: red;
@@ -10,8 +13,8 @@
 .main {
   width: 600px;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
+}
+
+.fixed {
+  position: fixed;
 }
