@@ -3,6 +3,8 @@
 @import "../css/componenets/navigationbar.css";
 @import "../css/componenets/settings.css";
 @import "../css/componenets/more.css";
+@import "../css/componenets/chats.css";
+@import "../css/componenets/friends.css";
 /* @media screen and (max-width: 600px) and(min-width:1200px) {
   body {
     background-color: red;

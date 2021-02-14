@@ -1,0 +1,30 @@
+.chatbox {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px;
+}
+
+.chatbox_chat {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.chatbox_chat_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chatbox_chat_info_icon {
+  width: 80px;
+  height: 80px;
+  margin: 10px 10px;
+  border-radius: 20px;
+  background-color: blueviolet;
+}
