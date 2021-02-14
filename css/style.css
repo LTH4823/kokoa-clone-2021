@@ -1,6 +1,12 @@
-@media screen and (max-width: 600px) and(min-width:1200px) {
+@import "../css/componenets/statusbar.css";
+/* @media screen and (max-width: 600px) and(min-width:1200px) {
   body {
     background-color: red;
     transition: all 1s ease;
   }
+} */
+
+.main {
+  width: 600px;
+  height: 100vh;
 }

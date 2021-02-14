@@ -5,36 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
-    <div>
-        <p></p>
-        <div></div>
-        <p></p>
-        <div></div>
-        <p></p>
-        <div></div>
-        <div></div>
-    </div>
-    
-    <div>
-        <p>Welcome to MarioTalk</p>
-        <p>If you have a Kokoa Account, log in with your email or phone number</p>
-    </div>
+    <div class="main">
+        <div class="statusbar">
+            <div class="statusbar_left">
+                <p>Flight mode</p>
+                <div><i class="fas fa-fighter-jet statusbar_left_flight"></i></div>
+                <div><i class="fas fa-wifi statusbar_left_wifi"></i></div>
+            </div>
+            <div class="statusbar_center"><span>21:00</span></div>
+            <div class="statusbar_right">
+                <p class="statusbar_right_percent">70%</p>
+                <i class="fas fa-battery-three-quarters statusbar_right_battery"></i>
+                <i class="fas fa-bolt statusbar_right_bolt"></i>
+            </div>
+        </div>
+        <div class="login-box">
+            <div>
+                <p>Welcome to MarioTalk</p>
+                <p>If you have a Kokoa Account, log in with your email or phone number</p>
+            </div>
 
-    <div>
-        <input maxlength="18" placeholder="Email or Phone number"></input>
-        <input type="password" placeholder="Password"></input>
-    </div>
-    
-    <div>
-        <div>Log In</div>
-        <div>Sign Up</div>
-    </div>
-   
-    <div>
-        <a href="#">Find Account or Password</a>
+            <form>
+                <div>
+                    <input maxlength="18" placeholder="Email or Phone number"></input>
+                    <input type="password" placeholder="Password"></input>
+                </div>
+                
+                <div>
+                    <div>Log In</div>
+                    <div>Sign Up</div>
+                </div>
+            </form>
+            <div>
+                <a href="#">Find Account or Password</a>
+            </div>
+        </div>
     </div>
 </body>
 </html>

@@ -1,0 +1,33 @@
+.statusbar {
+  width: 600px;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+.statusbar_left {
+  width: 200px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.statusbar_left i {
+  margin: 0px 5px;
+}
+
+.statusbar_center {
+  width: 100px;
+  text-align: center;
+}
+.statusbar_right {
+  width: 150px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.statusbar_right i {
+  margin: 0px 5px;
+}
