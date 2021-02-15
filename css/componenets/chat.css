@@ -1,0 +1,10 @@
+.chat {
+  background: linear-gradient(to top, rgb(88, 88, 233), rgb(49, 188, 243));
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.chatbox {
+  height: 100vh;
+}
