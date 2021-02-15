@@ -1,0 +1,41 @@
+.friends {
+  background: linear-gradient(to top, rgb(88, 88, 233), rgb(49, 188, 243));
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.friendsbox {
+  height: 100vh;
+  overflow: scroll;
+}
+
+.friendsbox::-webkit-scrollbar {
+  display: none;
+}
+
+.friendsbox_profile {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.friendsbox_channel {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.friendsbox_channel > p {
+  position: relative;
+  left: 20px;
+}
+
+.friednsbox_friend {
+  display: flex;
+  flex-direction: column;
+}
+
+.friednsbox_friend > p {
+  position: relative;
+  left: 20px;
+}
