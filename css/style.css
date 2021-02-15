@@ -9,7 +9,7 @@
 @import "../css/componenets/find.css";
 @import "../css/componenets/keyinput.css";
 @import "../css/componenets/chat.css";
-
+@import "../css/reset.css ";
 /* @media screen and (max-width: 600px) and(min-width:1200px) {
   body {
     background-color: red;
