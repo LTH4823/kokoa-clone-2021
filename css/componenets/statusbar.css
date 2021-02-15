@@ -10,11 +10,12 @@
   background-color: rgba(0, 0, 0, 0.1);
 }
 .statusbar_left {
+  margin: 0px 5px;
   width: 200px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  animation: leftbounce 1s ease-in infinite;
+  animation: spin2 1s ease-in infinite;
 }
 .statusbar_left i {
   margin: 0px 5px;
