@@ -1,14 +1,26 @@
+.chats {
+  background: linear-gradient(to top, rgb(88, 88, 233), rgb(49, 188, 243));
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .chatbox {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  margin: 20px;
+  overflow: scroll;
+}
+
+.chatbox::-webkit-scrollbar {
+  display: none;
 }
 
 .chatbox_chat {
   width: 600px;
+  margin: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
