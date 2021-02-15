@@ -30,6 +30,7 @@
   margin: 10px 10px;
   border-radius: 20px;
   background-color: blueviolet;
+  animation: smallbounce 1s ease-in infinite;
 }
 
 .morebox-profile_info_word {
@@ -70,6 +71,7 @@
   grid-template-rows: repeat(2, 100px);
   justify-content: center;
   align-content: center;
+  color: #ffffff;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -78,9 +80,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  animation: sizebounce 1s ease-in infinite;
 }
 
 .morebox-main_app i {
+  margin: 10px;
   font-size: 35px;
 }
 
@@ -100,6 +104,12 @@
   grid-template-rows: repeat(2, 100px);
   justify-content: center;
   align-content: center;
+  color: #ffffff;
+}
+
+.morebox-sug_apps i {
+  margin: 10px;
+  font-size: 35px;
 }
 
 .morebox-sug_apps_app {
@@ -107,4 +117,5 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  animation: spin 1s ease-out infinite;
 }

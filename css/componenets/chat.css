@@ -46,6 +46,7 @@
   height: 70px;
   border-radius: 10px;
   background-color: royalblue;
+  animation: bouncemove 1s ease-in infinite;
 }
 
 .chat_friend_info {
@@ -102,7 +103,7 @@
   padding: 10px;
   border-radius: 10px;
   border-top-right-radius: 0px;
-  background-color: #ffffff;
+  background-color: #ffff00;
 }
 .chat_self_info_time {
   font-size: 12px;

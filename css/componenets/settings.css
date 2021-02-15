@@ -13,6 +13,11 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  color: #ffffff;
+}
+
+.setting-box i {
+  animation: sizebounce 1s ease-in infinite;
 }
 
 .setting-box input {
@@ -21,6 +26,7 @@
   border-style: none;
   outline: none;
   cursor: pointer;
+  color: #ffffff;
   background-color: rgba(0, 0, 0, 0);
 }
 

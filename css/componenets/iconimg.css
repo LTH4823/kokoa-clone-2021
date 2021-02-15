@@ -1,0 +1,41 @@
+.icon_img01 {
+  background-image: url(../../img/dance.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.icon_img02 {
+  background-image: url(../../img/nomad.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.icon_img03 {
+  background-image: url(../../img/wolf.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.icon_img04 {
+  background-image: url(../../img/awesomemen.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.icon_img05 {
+  background-image: url(../../img/hiphopimg.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.icon_img06 {
+  background-image: url(../../img/sad.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.icon_img07 {
+  background-image: url(../../img/study.jpg);
+  background-size: cover;
+  background-position: center;
+}

@@ -10,7 +10,8 @@
 @import "../css/componenets/keyinput.css";
 @import "../css/componenets/chat.css";
 @import "../css/reset.css ";
-
+@import "../css/componenets/animation.css";
+@import "../css/componenets/iconimg.css";
 /* @media screen and (max-width: 600px) and(min-width:1200px) {
   body {
     background-color: red;

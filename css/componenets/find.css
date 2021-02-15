@@ -15,6 +15,11 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+.find_main i {
+  margin: 10px 0px;
+  animation: sizebounce 1s ease-in infinite;
+}
+
 .find_main_fun {
   display: flex;
   flex-direction: column;
@@ -122,10 +127,12 @@
 .openchatbox_section_info_more i {
   position: relative;
   top: 4px;
+  animation: heartaction 1s ease-in infinite;
 }
 
 .openchatbox_section_info_title {
   font-weight: bold;
+  animation: smallbounce 1s ease-in infinite;
 }
 .openchatbox_section_info_word {
   color: rgba(0, 0, 0, 0.3);
@@ -161,8 +168,7 @@
   position: relative;
   bottom: 27px;
   left: 37px;
-  border-radius: 10px;
-  background-color: rgba(112, 18, 18, 0.2);
+  animation: heartaction 1s ease-in infinite;
 }
 
 .openchatbox_section_profile_icon_heart > i {

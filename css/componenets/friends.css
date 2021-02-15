@@ -20,6 +20,7 @@
 }
 
 .friendsbox_channel {
+  margin: 10px 0px;
   display: flex;
   flex-direction: column;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -31,6 +32,7 @@
 }
 
 .friednsbox_friend {
+  margin: 10px 0px;
   display: flex;
   flex-direction: column;
 }
@@ -38,4 +40,13 @@
 .friednsbox_friend > p {
   position: relative;
   left: 20px;
+}
+
+.chatbox_chat_info_word_address {
+  margin: 5px 0px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.chatbox_chat_check_mark {
+  animation: spin 1s ease-in infinite;
 }

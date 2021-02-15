@@ -14,6 +14,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  animation: leftbounce 1s ease-in infinite;
 }
 .statusbar_left i {
   margin: 0px 5px;
@@ -22,12 +23,14 @@
 .statusbar_center {
   width: 100px;
   text-align: center;
+  animation: spin 1s ease-in infinite;
 }
 .statusbar_right {
   width: 150px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  animation: colorchange 1s ease-in infinite;
 }
 
 .statusbar_right i {
