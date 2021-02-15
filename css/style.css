@@ -10,7 +10,7 @@
 @import "../css/componenets/keyinput.css";
 @import "../css/componenets/chat.css";
 @import "../css/reset.css ";
-@import "../css/media.css";
+
 /* @media screen and (max-width: 600px) and(min-width:1200px) {
   body {
     background-color: red;
@@ -24,4 +24,11 @@
 
 .fixed {
   position: fixed;
+}
+
+.outpage {
+  position: absolute;
+  top: 20%;
+  left: 33%;
+  color: rgba(0, 0, 0, 0);
 }
